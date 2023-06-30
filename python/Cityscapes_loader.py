@@ -18,7 +18,7 @@ root_dir   = "CityScapes/"
 train_file = os.path.join(root_dir, "train.csv")
 val_file   = os.path.join(root_dir, "val.csv")
 
-num_class = 20
+num_class = 13
 means     = np.array([103.939, 116.779, 123.68]) / 255. # mean of three channels in the order of BGR
 h, w      = 1024, 2048
 train_h   = int(h/2)  # 512
