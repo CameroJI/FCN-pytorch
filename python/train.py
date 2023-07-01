@@ -20,7 +20,7 @@ import sys
 import os
 
 
-n_class    = 20
+n_class    = 13
 
 batch_size = 6
 epochs     = 500
